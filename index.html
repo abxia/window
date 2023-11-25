@@ -10,6 +10,10 @@
     <a href="b.html" >第二頁</a>
     <br>
     <a href="#" class="next">下一頁js</a>
-    <script src="all.js"></script>
+   <script>
+    document.querySelector('.next').onclick=function(){
+        windo.history.forward();
+    }
+   </script>
 </body>
 </html>
